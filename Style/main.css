@@ -5,3 +5,24 @@
     --texto-principal: #FFFFFF;
 
 }
+.cabecera {
+    top: 0px;
+    position: fixed;
+}
+.logo {
+    width: 155px;
+    margin: 0.625rem 0 0.625rem 0;
+}
+.links-nav a{
+    text-decoration: none;
+    color: var(--texto-menu);
+
+}
+.contenedor-principal {
+    margin-top: 10rem;
+    background-color: var(--color-fondo);
+    color: var(--texto-principal);
+}
+.contenedor-principal h1 {
+    font-size: 30px;
+}
