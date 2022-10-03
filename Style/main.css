@@ -42,3 +42,23 @@
     text-align: center;
     max-width: 10ch;
 }
+@media all and (min-width: 768px) {
+    .cabecera {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .logo {
+        margin-left: 1.875rem;
+        text-align: left;
+        margin-top: 1.25rem;
+        margin-bottom: 1.25rem; 
+    }
+    .links-nav {        
+        justify-content: flex-end;
+        margin-right: 1.875rem;
+    }
+    .contenedor-principal h1{
+        font-size: 40px;
+    }
+  }
