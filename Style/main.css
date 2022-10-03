@@ -6,22 +6,38 @@
 
 }
 .cabecera {
-    top: 0px;
     position: fixed;
+    top: 0px;   
+    width: 100vw;
+    z-index: 1;
+    
 }
 .logo {
+    margin: auto;
+    text-align: center;
     width: 155px;
-    margin: 0.625rem 0 0.625rem 0;
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;    
+}
+.links-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 1.25rem;
+    justify-content: center;
+
 }
 .links-nav a{
     text-decoration: none;
     color: var(--texto-menu);
+   
 
 }
 .contenedor-principal {
-    margin-top: 10rem;
+    margin-top: 6.875rem;
     background-color: var(--color-fondo);
     color: var(--texto-principal);
+    width: 100vw;
+    height: 100vh;
 }
 .contenedor-principal h1 {
     font-size: 30px;
