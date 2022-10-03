@@ -2,6 +2,7 @@
     font-family: 'Rubik', sans-serif;
     --texto-menu: #4a4a4a;
     --color-fondo: #3CDBC0;
+    --fondo-cabecera: #FFFFFF;
     --texto-principal: #FFFFFF;
 }
 .cabecera {
@@ -9,6 +10,7 @@
     top: 0px;   
     width: 100vw;
     z-index: 1;    
+    background-color: var(--fondo-cabecera)
 }
 .logo {
     margin: auto;
@@ -22,6 +24,7 @@
     flex-direction: row;
     gap: 1.25rem;
     justify-content: center;
+    margin-bottom: 0.813rem;
 }
 .links-nav a{
     text-decoration: none;
@@ -29,7 +32,7 @@
     font-size: 16px;
 }
 .contenedor-principal {
-    margin-top: 6.875rem;
+    
     background-color: var(--color-fondo);
     color: var(--texto-principal);   
     height: 100vh;
